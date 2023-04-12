@@ -43,7 +43,7 @@ function genmap()
 	mergenone=`mktemp /tmp/mergenone.XXXX`
 	mergeadd=`mktemp /tmp/mergeadd.XXXX`
 
-	# use python to generate the merge_update.txt merge_none.txt and merge_add.txt
+	# use python2 to generate the merge_update.txt merge_none.txt and merge_add.txt
 	$GENMAP_PY -map $2 $3 $mergeout $mergenone
 	if [ $? != "0" ];then
 		echo "ERROR, can not generate the map $mergeout $mergenone"

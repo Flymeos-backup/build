@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import os
 import sys
@@ -17,7 +17,7 @@ def getName(codePath):
     return apkname
 
 def usage():
-    print "Usage: python ./apkcerts.py path-to-packages.xml path-to-apkcerts.txt"
+    print "Usage: python2 ./apkcerts.py path-to-packages.xml path-to-apkcerts.txt"
 
 def main():
     if len(sys.argv) != 3:

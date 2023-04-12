@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 '''
 Created on 2015-08-06. add targetfiles data partition surpport

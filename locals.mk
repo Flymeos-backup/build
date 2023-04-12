@@ -366,7 +366,7 @@ NAME_TO_ID_TOOL := $(PORT_TOOLS)/nametoid
 ID_TO_NAME_TOOL := $(PORT_TOOLS)/idtoname
 
 SCHECK          := $(PORT_TOOLS)/smaliparser/SCheck
-AUTOFIX_TOOL    := python $(PORT_TOOLS)/smaliparser/reject.py
+AUTOFIX_TOOL    := python2 $(PORT_TOOLS)/smaliparser/reject.py
 
 PUSH                 := $(PORT_TOOLS)/push
 FLASH                := $(PORT_TOOLS)/bootimgpack/flash.py
