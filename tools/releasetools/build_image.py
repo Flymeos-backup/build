@@ -278,7 +278,7 @@ def BuildImage(in_dir, prop_dict, out_file,
       return False
 
     # Run e2fsck on the inflated image file
-    e2fsck_command = ["e2fsck", "-f", "-n", unsparse_image]
+    e2fsck_command = ["e2fsck", "-n", "-v", unsparse_image]
     exit_code = RunCommand(e2fsck_command)
 
     os.remove(unsparse_image)
